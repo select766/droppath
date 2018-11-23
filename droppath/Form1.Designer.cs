@@ -51,6 +51,8 @@
             // textBoxBaseDirectory
             // 
             this.textBoxBaseDirectory.AllowDrop = true;
+            this.textBoxBaseDirectory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxBaseDirectory.Location = new System.Drawing.Point(96, 12);
             this.textBoxBaseDirectory.Name = "textBoxBaseDirectory";
             this.textBoxBaseDirectory.Size = new System.Drawing.Size(619, 19);
@@ -61,6 +63,7 @@
             // 
             // checkBoxRelativePath
             // 
+            this.checkBoxRelativePath.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBoxRelativePath.AutoSize = true;
             this.checkBoxRelativePath.Location = new System.Drawing.Point(721, 14);
             this.checkBoxRelativePath.Name = "checkBoxRelativePath";
@@ -98,6 +101,9 @@
             // textBoxFiles
             // 
             this.textBoxFiles.AllowDrop = true;
+            this.textBoxFiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxFiles.Location = new System.Drawing.Point(12, 63);
             this.textBoxFiles.Multiline = true;
             this.textBoxFiles.Name = "textBoxFiles";
@@ -108,6 +114,7 @@
             // 
             // buttonCopy
             // 
+            this.buttonCopy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCopy.Location = new System.Drawing.Point(713, 35);
             this.buttonCopy.Name = "buttonCopy";
             this.buttonCopy.Size = new System.Drawing.Size(75, 23);
@@ -118,6 +125,7 @@
             // 
             // buttonCdCopy
             // 
+            this.buttonCdCopy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCdCopy.Location = new System.Drawing.Point(600, 34);
             this.buttonCdCopy.Name = "buttonCdCopy";
             this.buttonCdCopy.Size = new System.Drawing.Size(107, 23);
